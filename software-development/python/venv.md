@@ -8,8 +8,10 @@ brew install pyenv
 ```
 
 ```
-pyenv install 3.9.14
-pyenv local 3.9.14
+pyversion=3.9.14
+pyenv install $pyversion
+# env PYTHON_CONFIGURE_OPTS="--enable-shared" pyenv install --verbose $pyversion
+pyenv local $pyversion
 pyenv exec python -m venv venv
 ```
 
@@ -31,5 +33,11 @@ For some of  packages, you might require to add you private repository credentia
 
 ```
 poetry config http-basic.<myprivate_pypi> <username> <password>
+```
+
+
+Add packages
+```
+poetry add psycopg2-binary==2.9.9
 ```
 

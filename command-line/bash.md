@@ -23,3 +23,12 @@ then
     echo ${BASH_REMATCH[1]}  
 fi
 ```
+
+## Package versions using `apt-get`
+
+To find the versions of packages that you're installing via `apt-get`, you can use the `apt-cache policy` command, which will show you the version that will be installed from your current sources. For example, to find out the version of `curl`, `libmetis-dev`, `coinor-cbc`, and `coinor-libcbc-dev` that will be installed, you can add the following lines to your Dockerfile:
+
+```bash
+RUN apt-get update && apt-get upgrade -y \     
+	&& apt-cache policy curl libmetis-dev coinor-cbc coinor-libcbc-dev
+```
