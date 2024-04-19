@@ -1,4 +1,4 @@
-This note states a framework to define a Data/Decision Science project. The goal is to achive alignment between indiviual contributors and stakeholders. 
+This note states a framework to define a Data/Decision Science project. The goal is to achieve alignment between individual contributors and stakeholders. 
 
 ## Context
 
@@ -16,7 +16,7 @@ This note states a framework to define a Data/Decision Science project. The goal
 
 ### Out-of-scope
 
-## Scientify model (Methodology)
+## Scientific model (Methodology)
 
 ## Required data
 

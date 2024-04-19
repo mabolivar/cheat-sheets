@@ -1,7 +1,7 @@
 # Bash cheat-sheet
 ---
 
-## Setting environmetn variables from a file
+## Setting environment variables from a file
 
 Given a `.env` file with a list of environmetn variables to be set, the envvars can be exported using the following code chunk ([more details at the docs](https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html)).
 ```bash
