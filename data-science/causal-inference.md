@@ -3,6 +3,7 @@
  
 - [A First Course in Causal Inference -ArXiv](https://arxiv.org/abs/2305.18793) 
 - [Arkhangelsky & Imbens (2023) - Causal Models for Longitudinal and Panel Data: A Survey](https://arxiv.org/abs/2311.15458 )
+- [Causal AI Book resources](https://altdeep.ai/p/causalaibook)
 
 ## Ez email from J Robins
 
