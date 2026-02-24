@@ -8,11 +8,11 @@ brew install pyenv
 ```
 
 ```bash
-pyversion=3.10.14
-pyenv install --verbose $pyversion
+pyversion=3.11.5
+# pyenv install --verbose $pyversion
 # env PYTHON_CONFIGURE_OPTS="--enable-shared" pyenv install --verbose $pyversion
 pyenv local $pyversion
-pyenv exec python -m venv venv
+pyenv exec python -m venv .venv
 ```
 
 In a docker container
